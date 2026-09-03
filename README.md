@@ -1,7 +1,7 @@
-# FactKG → grafos FEVER e Parquet
+# FactKG → grafos json e Parquet
 
 Utilitários em Python para transformar o dataset **FactKG** em registros JSON
-compatíveis com uma estrutura de grafo inspirada no FEVER e exportá-los para
+compatíveis com uma estrutura do projeto e exportá-los para
 tabelas Parquet.
 
 ## Fluxo
