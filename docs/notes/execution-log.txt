@@ -1,0 +1,10 @@
+python3 convert_factkg_to_fever_graph.py \
+  --split train \
+  --output-dir output/factkg_sample \
+  --limit 10000
+  
+  
+python3 convert_factkg_to_fever_graph.py \
+  --split test \
+  --output-dir output/factkg_sample \
+  --limit 10000

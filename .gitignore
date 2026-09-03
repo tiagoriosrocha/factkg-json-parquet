@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Testes, análise e cobertura
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Artefatos e conjuntos de dados gerados
+data/processed/
+data/raw/*.pickle
+data/raw/*.pkl
+data/raw/*.zip
+
+# Arquivos locais do sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
